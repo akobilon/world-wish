@@ -1,0 +1,134 @@
+#accueil_body{
+      background-image: url('../images/ok/bg3.jpg');
+      background-attachment: fixed;
+      background-size: cover;
+      color: snow;
+}
+
+#titre{
+      color: snow;
+}
+
+.form_container{
+      width: 720px;
+      margin: auto;
+}
+
+#accueil_form{
+      padding: none;
+      margin: none;
+      background: rgba(0, 0, 0, 0.7);
+      display: flex;
+      flex-direction: column;
+}
+
+#accueil_form div{
+      margin: 5px;
+      padding: 5px;
+}
+
+#accueil_div_username{
+      display: flex;
+      flex: row;
+      justify-content: space-around;
+}
+#accueil_div_username input{
+      background-color: transparent;
+      margin: 10px;
+      padding: 10px;
+      font-size: 25px;
+      color: aliceblue;
+}
+#accueil_div_username label{
+      margin: 10px;
+      padding: 10px;
+      font-size: 25px;
+}
+
+#team{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+}
+
+#accueil_form_submit_btn{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+}
+
+#accueil_form_submit_btn input{
+      width: 150px;
+      margin: 10px;
+      padding: 10px;
+      background-color: transparent;
+      color: bisque;
+      font-size: large;
+      border-radius: 10px;
+}
+#accueil_form_submit_btn input:hover{
+      background-color: bisque;
+      color: blueviolet;
+      font-weight: bold;
+}
+
+.accueil_img{
+      height: 200px;
+      opacity: 0.7;
+}
+.accueil_img:hover{
+      opacity: 1;
+}
+.accueil_img:active{
+      opacity: 1;
+}
+
+/************choice classe**************/
+.classes{
+      display: none;
+}
+#classe_form{
+      width: 100%;
+}
+#classe_form .classes{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+}
+#classe_form .classes div{
+      margin: 10px;
+      padding: 10px;
+}
+#classe_form .classes div label img{
+      height: 300px;
+      opacity: 0.7;
+}
+#classe_form .classes div label img:hover{
+      opacity: 1;
+}
+.classe_form_container{
+      width: 100%;
+      margin: auto;
+}
+
+/************combat**************/
+.combat_form_container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: auto;
+}
+.combat_btn{
+      display: flex;
+      flex-direction: row;
+}
+.combat_btn button{
+      margin: 5px;
+      padding: 5px;
+}
+.combat_img{
+      width: 250px;
+      height: 300px;
+}

@@ -1,0 +1,12 @@
+Deux factions : la Coallition et la Colonie
+
+Dans chaque factions nous avons :
+- la classe Guerrier
+le guerrier peut utiliser soit : une hache(20), une épée(15) ou une lance(10)
+avec une hache, pas de bouclier
+
+-la classe Sorcier
+
+-la classe Prêtre
+
+-la classe Druide
